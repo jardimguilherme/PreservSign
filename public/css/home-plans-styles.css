@@ -1,0 +1,176 @@
+.plans-subBar {
+    height: 100px;
+    background-color: #e54161;
+    text-align: center;
+    line-height: 100px;
+}
+
+.plans-subBar a {
+    font-family: Cookie;
+    color: #f2f2f2;
+    font-size: 60px;
+}
+
+.plans-subBar a:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.plans-basic {
+    height: 28vh;
+    background: rgba(252, 228, 240, 0.6);
+}
+
+.plans-premium {
+    height: 30vh;
+    background: rgba(252, 228, 240, 0.8);
+}
+
+.plans-extra {
+    height: 30vh;
+    background: rgba(252, 228, 240, 1);
+}
+
+.first-division {
+    width: 550px;
+    height: 25vh;
+    float: left;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+
+.center-division {
+    width: 450px;
+    height: 18vh;
+    margin-left: 750px;
+    margin-top: 66px;
+}
+
+.right-division {
+    width: 145px;
+    height: 8vh;
+    float: right;
+    margin-right: 20px;
+    margin-top: -162px;
+}
+
+.plan-title {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 30px;
+    color: #6e6e6e;
+}
+
+.plan-description {
+    margin-top: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.plan-detail {
+    margin-left: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.plan-detail p {
+    font-size: 30px;
+}
+
+.btn-assinar {
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 25px;
+    background-color: #e54161;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    line-height: 55px;
+    border: 3px solid #e54161;
+    border-radius: 20px;
+    width: 85%;
+    height: 78%;
+    max-width: 130px;
+}
+
+.btn-assinar:hover {
+    background: #fff;
+    color: #e54161;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-assinar {
+        line-height: 40px;
+        margin-top: 55px;
+        width: 100px;
+        height: 40px;
+        margin-right: 3px;
+        font-size: 20px;
+    }
+
+    .plans-subBar a {
+        font-size: 50px;
+    }
+
+    .plans-basic {
+        height: 26vh;
+    }
+
+    .plans-premium {
+        height: 29vh;
+    }
+
+    .plans-extra {
+        height: 26vh;
+    }
+
+    .first-division {
+        width: 252px;
+        height: 4vh;
+        margin-left: 3px;
+    }
+
+    .center-division {
+        width: 252px;
+        height: 18vh;
+        margin-left: 5px;
+        margin-top: 58px;
+    }
+
+    .right-division {
+        width: 105px;
+        height: 15vh;
+        float: right;
+        margin-right: 5px;
+    }
+
+    .plan-title {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 25px;
+        margin-top: -4px;
+        margin-left: 5px;
+    }
+
+    .plan-description {
+        display: none;
+    }
+
+    .plan-detail {
+        margin-left: 18px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        font-size: 15px;
+    }
+
+    .plan-detail p {
+        font-size: 20px;
+    }
+}

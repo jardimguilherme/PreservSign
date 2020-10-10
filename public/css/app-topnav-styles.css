@@ -1,0 +1,89 @@
+.topnav {
+    background: rgba(22, 22, 22, 0.9);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    flex: 0 1 auto;
+}
+
+.navbar-logo {
+    font-family: Cookie;
+    font-size: 35px !important;
+    padding: 0px 0px !important;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 56px;
+}
+
+.navbar-logo:hover {
+    color: #e54161;
+    text-decoration: none;
+    cursor: pointer;
+    background: none !important;
+    padding: 0%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #fff;
+    color: #e54161;
+    height: 56px !important;
+}
+
+.topnav-login {
+    float: right;
+}
+
+.topnav-signUp {
+    float: right;
+    background: #e54161;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.top-nav-dropdown-content a {
+    text-align: left;
+    cursor: pointer;
+}
+
+.top-nav-dropdown-content a:hover {
+    width: 100%;
+    cursor: pointer;
+    height: 53px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}

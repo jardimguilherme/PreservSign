@@ -1,0 +1,174 @@
+/* card-styles */
+.cardTitle {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #e54161 !important;
+    text-align: center;
+}
+
+.cardFields {
+    width: 30vw;
+}
+
+.cardFields input {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.cardFields input:hover {
+    color: #e54161 !important;
+    background-color: #fff !important;
+}
+
+.addCard {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacaoCartao {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.cardBoxes {
+    width: 70vw;
+    margin-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.boxCard {
+    width: 35%;
+    height: 29vh;
+    text-align: center;
+    background: rgba(107, 107, 107, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-card-text {
+    font-size: 26px;
+    color: rgba(22, 22, 22, 0.9);
+    margin-bottom: 4%;
+}
+
+.box-card-icone {
+    font-size: 52px;
+    color: rgba(22, 22, 22, 0.9);
+    margin-top: 15%;
+}
+
+.confirmacaoCartao {
+    margin-top: 2vh;
+    align-content: center;
+}
+
+.voltarCartao {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.voltarCartao:hover {
+    color: #e54161 !important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.cardFormTitle {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #e54161 !important;
+}
+
+.cardForm {
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif !important;
+    margin-bottom: 2px;
+}
+
+.voltarPayment{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 600px) {
+    .cardFormTitle {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .cardForm {
+        width: 80vw;
+    }
+
+    .cardTitle {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        line-height: 90%;
+    }
+
+    .cardFields {
+        width: 80vw;
+    }
+
+    .cardBoxes {
+        width: 98vw;
+    }
+
+    .boxCard {
+        width: 90%;
+        height: 23vh;
+    }
+}

@@ -1,0 +1,127 @@
+.viewContactBody{
+    height: 100%;
+    width: 100%;
+    background-color: #fce4f0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    color: #E54161!important;
+
+}
+
+.contactViewTitle{
+    padding-top: 4%;
+    padding-bottom: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #E54161!important;
+    text-align: center;
+    
+}
+
+.contactBoxes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.boxContact{
+    margin-top: 1%;
+    width: 50%;
+    height: 14vh;
+    background: rgba(107, 107, 107, 0.15);
+    border-radius: 15px;
+    
+}
+
+.box-contact-text{
+    line-height: 120%;
+    width: 85%;
+    height: 13vh;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: rgba(22, 22, 22, 0.9);
+}
+
+.box-contact-text p{
+    margin-left: 1%;
+}
+
+.box-contact-text textarea{
+    background-color: rgba(107, 107, 107, 0);
+    border-color: rgba(107, 107, 107, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(22, 22, 22, 0.9);
+    font-size: 110%;
+    margin-top: -1%;
+}
+
+.box-contact-text p{
+   font-size: 120%;
+   max-width: 166vh;
+}
+
+.actionsContact{
+    float: right;
+    margin-right: 1%;
+    width: 4%;
+    height: 25%;
+    margin-top: -10.5%;
+
+}
+
+.actionContact{
+    float: right;
+    background-color: rgba(107, 107, 107, 0)!important;
+    color: #E54161!important;
+    padding: 1px 2px !important;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+
+@media screen and (max-width: 600px){
+    .contactBoxes{
+        margin-top: 3%;
+        width: 183vw;
+        height: 18vh;
+    }
+    .boxContact{
+        width: 49%;
+        height: 105%;
+    }
+
+    .box-contact-text{
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+    .box-contact-text p{
+        margin-left: 3%;
+    }
+
+    .box-contact-text textarea{
+        margin-top: -6%;
+    }
+
+    .actionsContact{
+        float: left;
+        margin-left: 40%;
+        width: 22%;
+        margin-top: -10%;
+    }
+
+    .actionContact{
+        float: none;
+    }
+}

@@ -1,0 +1,197 @@
+/* subscription-styles */
+/* edt-subscription-styles */
+.subscriptionFormTitle{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #E54161 !important;
+        
+}
+
+.subscriptionForm{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif !important;
+    margin-bottom: 2px;
+    
+}
+
+label{
+    font-size: 24px;
+}
+
+.selectSubscriptionTitle{
+    padding-top: 6%;
+    padding-bottom: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #E54161!important;
+    text-align: center;
+    
+}
+
+.editSubscriptionBoxes{
+    margin-top: 3%;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.boxEditSubscription{
+    width: 26%;
+    height: 31vh;
+    text-align: center;
+    background: rgba(107, 107, 107, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-subscription-content{
+    height: 90%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-subscription-titulo{
+    margin-top: 2%;
+    color: #E54161!important;
+    font-size: 22px;
+}
+
+.box-subscription-text{
+    width: 90%;
+    color: rgba(22, 22, 22, 0.9);
+}
+
+.box-subscription-icone{
+    font-size: 40px;
+}
+
+.subscriptionForm{
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif !important;
+    margin-bottom: 2px;
+    
+}
+
+.navegacaoSubscription {
+    padding-top: 5vh;
+
+}
+
+.upgradeDowngrade {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.upgradeDowngrade:hover{
+    color: #e54161!important;
+    background-color: #fff !important;
+}
+
+.editarCartaoPlano {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.editarCartaoPlano:hover {
+    color: #e54161!important;
+    background-color: #fff !important;
+}
+
+.editarEnderecoPlano {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.editarEnderecoPlano:hover {
+    color: #e54161!important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.cancelar {
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.cancelar:hover{
+    color: #e54161!important;
+    background-color: #fff !important;
+}
+
+.actionsEditSubscriptions{
+    margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px){
+    .editSubscriptionBoxes{
+        margin-top: 5%;
+        width: 98vw;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+    }
+    .boxEditSubscription{
+        margin-top: 4%;
+        width: 85%;
+        height: 30vh;
+    }
+    .subscriptionFormTitle{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .subscriptionForm{
+        width: 80%;
+    }
+}

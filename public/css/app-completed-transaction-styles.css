@@ -1,0 +1,59 @@
+.subscriptionFields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.subscriptionFields p{
+    margin-top: 4vh;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+.downloadBoleto{
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+}
+
+.downloadBoleto a{
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px!important;
+    cursor: pointer;
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+.downloadBoleto a:hover {
+    color: #e54161 !important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.retornarHome {
+    margin-top: -2%;
+    font-size: 15px;
+    color: #e54161;
+}
+
+.retornarHome:hover {
+    text-decoration: none;
+    color: #f66d9b;
+
+}
+.retornarHome {
+    margin-top: 2%;
+    font-size: 15px;
+    color: #e54161;
+}
+
+.retornarHome:hover {
+    text-decoration: none;
+    color: #f66d9b;
+}

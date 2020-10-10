@@ -1,0 +1,326 @@
+.subBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    background-color: #fce4f0;
+}
+
+.image-left {
+    position: relative;
+    float: left;
+    align-self: flex-end;
+    margin-right: 5%;
+    max-height: 400px;
+}
+
+.image-right {
+    position: relative;
+    float: right;
+    align-self: flex-end;
+}
+
+.blurred-box {
+    width: 85%;
+    height: auto;
+    max-width: 850px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background: rgba(107, 107, 107, 0.5);
+    border-radius: 75px;
+}
+
+.text-title {
+    font-family: Cookie;
+    font-size: 500%;
+    color: #e54161 !important;
+}
+
+.text-description {
+    margin-top: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 150%;
+    color: #f2f2f2 !important;
+}
+
+.btn-signUp {
+    border-radius: 22px;
+    color: #fff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 25px;
+    background-color: #e54161;
+    border: 3px solid #e54161;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 15px;
+    margin-top: 20px;
+    width: 45%;
+    max-width: 150px;
+    max-height: 75px;
+}
+
+.btn-signUp:hover {
+    background: #f2f2f2;
+    color: #e54161;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.instrucoes {
+    display: flex;
+    flex-direction: row;
+    height: 36vh;
+    max-height: 350px;
+    margin-top: 0cm;
+}
+
+.assine {
+    background-color: rgba(229, 65, 97, 0.5);
+    width: 34vw;
+    height: 41vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.assine-left {
+    width: 30vh;
+    height: 20vh;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.assine-left i {
+    margin-top: 20px;
+    font-size: 300%;
+}
+
+.assine-left p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+.assine-right {
+    width: 30vh;
+    height: 20vh;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.assine-right i {
+    margin-top: 20px;
+    font-size: 320%;
+}
+
+.assine-right p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+.description-icon {
+    margin-top: -4px;
+}
+
+.assinaturas {
+    background-color: rgba(229, 65, 97, 0.6);
+    width: 34vw;
+    height: 41vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.assinaturas-left {
+    width: 30vh;
+    height: 20vh;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.assinaturas-left i {
+    margin-top: 20px;
+    font-size: 300%;
+}
+
+.assinaturas-left p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+.assinaturas-right {
+    width: 31.5vh;
+    height: 20vh;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.assinaturas-right i {
+    font-size: 300%;
+    margin-top: 20px;
+}
+
+.assinaturas-right p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+.produtos {
+    background-color: rgba(229, 65, 97, 0.7);
+    width: 34vw;
+    height: 43vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.produtos-left {
+    width: 30vh;
+    height: 20vh;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.produtos-left i {
+    margin-top: 20px;
+    font-size: 320%;
+}
+
+.produtos-left p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+.produtos-right {
+    width: 31.5vh;
+    height: 20vh;
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.produtos-right i {
+    margin-top: 20px;
+    font-size: 320%;
+}
+
+.produtos-right p {
+    margin-top: 5px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .text-description {
+        font-size: 110%;
+    }
+
+    .instrucoes {
+        height: 33vh;
+    }
+
+    .image-left {
+        display: none;
+    }
+
+    .image-right {
+        display: none;
+    }
+
+    .blurred-box {
+        width: 90%;
+        height: auto;
+        margin-left: 0%;
+        padding-bottom: 3%;
+    }
+
+    .btn-signUp {
+        padding: 8px 8px;
+    }
+
+    .assine {
+        display: none;
+    }
+
+    .assine-box {
+        display: none;
+    }
+
+    .assinaturas {
+        display: none;
+    }
+    .assinaturas-left {
+        display: none;
+    }
+    .assinaturas-right {
+        display: none;
+    }
+
+    .description-icon {
+        margin-top: -4px;
+    }
+
+    .produtos {
+        background-color: rgba(229, 65, 97, 0.8);
+        width: 100vw;
+        height: 35vh;
+        bottom: 0;
+        margin-top: -5px;
+    }
+
+    .produtos-left {
+        width: 23vh;
+        height: 25vh;
+        margin-top: 10px;
+    }
+
+    .produtos-left i {
+        margin-top: 20px;
+        font-size: 220%;
+    }
+
+    .produtos-left p {
+        margin-top: 5px;
+        font-size: 80%;
+    }
+
+    .produtos-right {
+        width: 23vh;
+        height: 25vh;
+        margin-top: 10px;
+    }
+
+    .produtos-right i {
+        margin-top: 20px;
+        font-size: 260%;
+    }
+
+    .produtos-right p {
+        margin-top: 5px;
+        font-size: 70%;
+    }
+
+    .produtos-center {
+        display: none;
+    }
+}

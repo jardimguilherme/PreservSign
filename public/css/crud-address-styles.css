@@ -1,0 +1,247 @@
+/* address-styles */
+.generic-background-image {
+    max-height: 400px;
+    position: relative;
+    margin-right: 15%;
+    align-self: flex-end;
+    float: right;
+}
+
+.addressFormTitle {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #e54161 !important;
+}
+
+.addressForm {
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif !important;
+    margin-bottom: 2px;
+}
+
+.atualizarEndereco{
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.atualizarEndereco:hover {
+    color: #e54161 !important;
+    background-color: #fff !important;
+}
+
+.voltarEditarEndereco{
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+.voltarEditarEndereco:hover{
+    color: #e54161!important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.imagemFluxo{
+    width: auto;
+    text-align: center;
+    margin-top: .5%;
+}
+
+.imagemFluxo img{
+    width: 70%;
+    height: auto;
+    margin-bottom: 8%;
+}
+
+.planoSelecionado{
+    margin-top: 10%;
+    color: rgba(22, 22, 22, 0.9);
+    font-size: 200%;
+}
+
+.addressTitle{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #E54161!important;
+    text-align: center;
+        
+}
+
+.addressFields{
+    margin-top: 4%;
+    width: 30vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+    margin-bottom: 2px;
+}
+
+.addAddress{
+    margin-top: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    color: #e54161;
+}
+
+.addAddress i{
+    font-size: 45px;
+}
+
+.addAddress a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.navegacao {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.enderecosBoxesExample{
+    margin-top: 12%;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+
+}
+
+.boxEnderecoExample{
+    margin-top: 2%;
+    width: 24%;
+    height: 27vh;
+    text-align: center;
+    background: rgba(107, 107, 107, 0.15);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.actionsSelectAddress{
+    margin-bottom: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.actionsSelectAddress input{
+    background-color: rgba(107, 107, 107, 0);
+    color: #e54161;
+    border: none!important;
+    cursor: pointer;
+    font-size: 130%;
+    margin-top: 2%;
+}
+
+.actionsSelectAddress input:hover{
+    color: white!important;
+}
+
+.voltarAddress{
+    background-color: #e54161 !important;
+    color: #fff;
+    border: 3px solid #e54161 !important;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 120%;
+    margin-top: 2%;
+}
+
+.voltarAddress:hover{
+    color: #e54161!important;
+    background-color: #fff !important;
+    text-decoration: none;
+}
+
+.box-endereco-textExample{
+    margin-top: 9%;
+    width: 80%;
+    color: rgba(22, 22, 22, 0.9);
+}
+
+@media screen and (max-width: 600px) {
+    .addressFormTitle {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .addressForm {
+        width: 80vw;
+    }
+    .generic-background {
+        display: none;
+    }
+
+    .addressTitle{
+        padding-top: 10%;
+        padding-bottom: 10%;
+        line-height: 90%;
+    }
+    .addressFields{
+        width: 80vw;
+    }
+    .enderecosBoxesExample{
+        width: 98vw;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .boxEnderecoExample{
+        width: 75%;
+        height: 29vh;
+    }
+    .imagemFluxo img{
+        width: 100%;
+        height: auto;
+    }
+}

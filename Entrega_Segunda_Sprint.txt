@@ -1,0 +1,9 @@
+Para a entrega destinada para a segunda sprint foram realizadas:
+- Escolha do framework para a aplicação
+- Criadas as rotas da aplicação
+- Foi criada a migration usuário
+- Criação dos controller: ProfileController, ProfileEditController, HomeController
+- View para cadastro, login e perfil criados
+- Criado menu
+- Integração com o Banco de Dados da Aplicação
+- Refinamentos Visuais

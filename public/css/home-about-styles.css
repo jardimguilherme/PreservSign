@@ -1,0 +1,44 @@
+.about-background {
+    height: 100%;
+    width: 100%;
+    background-color: #FCE4F0;
+    height: 100vh;
+}
+
+.about-title {
+    text-align: center;
+    color: #6e6e6e;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    vertical-align: middle;
+    margin-top: 2.5%;
+}
+
+.description-background {
+    width: 65%;
+    height: 88.5%;
+    margin: 0 auto;
+    text-align: justify;
+    color: #6e6e6e;
+    font-size: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    line-height: 180%;
+    margin-top: 3%;
+}
+
+@media screen and (min-width: 600px) {
+    div.about-title {
+        font-size: 350%;
+    }
+    div.about-description {
+        font-size: 200%;
+    }
+
+    div.about-title {
+        font-size: 260%;
+    }
+    div.about-description {
+        font-size: 110%;
+    }
+}
